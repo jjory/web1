@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+
+div>ul>li
+<div>
+  <ul>
+    <li></li>
+  </ul>
+</div>
+
+div+p+bq
+<div></div>
+<p></p>
+<blockquote></blockquote>
+
+div>ul>li>a
+<div>
+  <ul>
+    <li><a href=""></a></li>
+  </ul>
+</div>
+
+div>ul>li^a
+<div>
+  <ul>
+    <li></li>
+  </ul>
+  <a href=""></a>
+</div>
+
+div>ul>li^^a
+<div>
+  <ul>
+    <li></li>
+  </ul>
+</div>
+<a href=""></a>
+
+a*3
+<a href=""></a>
+<a href=""></a>
+<a href=""></a>
+
+div>ul>li>a*3
+<div>
+  <ul>
+    <li>
+      <a href=""></a>
+      <a href=""></a>
+      <a href=""></a>
+    </li>
+  </ul>
+</div>
+
+div>ul>(li>a)*3
+<div>
+  <ul>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+      </ul>
+</div>
+
+nav#navigation>ul>li>a
+<nav id="navigation">
+  <ul>
+    <li><a href=""></a></li>
+  </ul>
+</nav>
+
+nav>ul>(li.list>a)*3
+<nav>
+  <ul>
+    <li class="list"><a href=""></a></li>
+    <li class="list"><a href=""></a></li>
+    <li class="list"><a href=""></a></li>
+  </ul>
+</nav>
+
+a[targe="_blank" targe="adf"]
+<a href="" targe="adf"></a>
+
+li>a>{table}
+<li><a href="">table</a></li>
+
+ul>li.item$*3
+<ul>
+  <li class="item1"></li>
+  <li class="item2"></li>
+  <li class="item3"></li>
+</ul>
+
+inpt[name=""]
+
+
+
+</body>
+</html>
